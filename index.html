@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKV SMKN 1 Ciamis — Modern Neon Violet</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Canvas Particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Cursor Aura -->
+    <div class="cursor-aura" id="cursorAura"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <a href="#home" class="logo">
+            <div class="logo-box">DKV</div>
+            <div class="logo-text">
+                <strong>DKV</strong>
+                <span>SMKN 1 CIAMIS</span>
+            </div>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav id="nav">
+            <a href="#tentang" class="nav-link">Tentang</a>
+            <a href="#visi" class="nav-link">Visi & Misi</a>
+            <a href="#logo" class="nav-link">Filosofi</a>
+            <a href="#angkatan" class="nav-link">Angkatan</a>
+            <a href="#karya" class="nav-link">Karya</a>
+            <a href="#kontak" class="nav-link">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+        <div class="hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                DESAIN KOMUNIKASI VISUAL
+            </div>
+
+            <h1>
+                Menciptakan <br>
+                <span class="glow-text">Ide Visual.</span> <br>
+                Mengubah Masa Depan.
+            </h1>
+
+            <p>
+                Selamat datang di portal resmi Jurusan Desain Komunikasi Visual SMKN 1 Ciamis. Wadah pengembangan talenta kreatif digital, fotografi, sinematografi, dan desain modern berkelas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#tentang" class="btn btn-primary">
+                    Eksplor DKV
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                </a>
+                <a href="#karya" class="btn btn-secondary">
+                    Lihat Galeri Karya
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-art-container">
+            <div class="tilt-card hero-card">
+                <div class="hero-card-inner">
+                    <div class="hero-card-badge">CREATIVE LAB</div>
+                    <div class="hero-card-number">01</div>
+                    <div class="hero-card-title">DKV<br>STUDIO</div>
+                    <p class="hero-card-sub">SMKN 1 CIAMIS</p>
+                </div>
+            </div>
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+        </div>
+    </section>
+
+    <!-- TENTANG SECTION -->
+    <section class="section" id="tentang">
+        <div class="section-header">
+            <span class="section-num">01</span>
+            <h2>Tentang <span>DKV</span></h2>
+        </div>
+
+        <div class="grid-2">
+            <div class="about-card tilt-card">
+                <h3>Belajar Visual. <br><span class="glow-text">Berkarya Tanpa Batas.</span></h3>
+                <p>
+                    Desain Komunikasi Visual (DKV) SMKN 1 Ciamis mengombinasikan seni rupa murni, strategi komunikasi, dan pemanfaatan perangkat lunak digital industri terkini untuk mencetak kreator unggul.
+                </p>
+            </div>
+
+            <div class="skills-wrapper">
+                <p class="skills-subtitle">Kompetensi Utama Keahlian:</p>
+                <div class="skills-grid">
+                    <div class="skill-chip"><span>🎨</span> Graphic Design</div>
+                    <div class="skill-chip"><span>📸</span> Photography</div>
+                    <div class="skill-chip"><span>🎬</span> Videography</div>
+                    <div class="skill-chip"><span>⚡</span> Branding & Logo</div>
+                    <div class="skill-chip"><span>✍️</span> Digital Illustration</div>
+                    <div class="skill-chip"><span>💻</span> UI/UX & Web Design</div>
+                    <div class="skill-chip"><span>🎞️</span> 2D/3D Animation</div>
+                    <div class="skill-chip"><span>📦</span> Packaging Design</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISI MISI SECTION -->
+    <section class="section dark-section" id="visi">
+        <div class="section-header">
+            <span class="section-num">02</span>
+            <h2>Visi & <span>Misi</span></h2>
+        </div>
+
+        <div class="grid-2">
+            <div class="visi-card glass-panel">
+                <span class="card-label">VISI JURUSAN</span>
+                <blockquote class="quote">
+                    "Menjadi pusat pendidikan keahlian desain komunikasi visual yang mencetak generasi inovatif, adaptif terhadap teknologi industri kreatif, serta berkarakter unggul."
+                </blockquote>
+            </div>
+
+            <div class="misi-list">
+                <div class="misi-item glass-panel">
+                    <div class="misi-num">01</div>
+                    <div class="misi-content">
+                        <h4>Standar Industri Modern</h4>
+                        <p>Menyelenggarakan pembelajaran berbasis proyek (Project-Based Learning) sesuai kebutuhan dunia kerja kreatif.</p>
+                    </div>
+                </div>
+
+                <div class="misi-item glass-panel">
+                    <div class="misi-num">02</div>
+                    <div class="misi-content">
+                        <h4>Eksplorasi Inovasi & Seni</h4>
+                        <p>Memfasilitasi ide-ide eksploratif siswa dalam bidang media baru, fotografi, film pendek, dan desain terapan.</p>
+                    </div>
+                </div>
+
+                <div class="misi-item glass-panel">
+                    <div class="misi-num">03</div>
+                    <div class="misi-content">
+                        <h4>Etika & Kolaborasi</h4>
+                        <p>Membangun etos kerja profesional, integritas karya, kerja sama tim, serta kemandirian wirausaha kreatif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FILOSOFI LOGO SECTION -->
+    <section class="section" id="logo">
+        <div class="section-header">
+            <span class="section-num">03</span>
+            <h2>Filosofi <span>Logo</span></h2>
+        </div>
+
+        <div class="grid-2 logo-container">
+            <div class="logo-interactive-display glass-panel">
+                <div class="logo-preview-glow" id="logoGlow"></div>
+                <div class="logo-big-text" id="logoBigText">DKV</div>
+                <div class="logo-tagline" id="logoTagline">DESAIN • KOMUNIKASI • VISUAL</div>
+            </div>
+
+            <div class="philosophy-tabs">
+                <div class="philosophy-card glass-panel active" data-letter="D" data-title="DESAIN" data-glow="rgba(168, 85, 247, 0.4)">
+                    <div class="ph-letter">D</div>
+                    <div class="ph-info">
+                        <h4>DESAIN (Design)</h4>
+                        <p>Pola pikir terstruktur untuk memecahkan masalah melalui perancangan visual estetis dan fungsional.</p>
+                    </div>
+                </div>
+
+                <div class="philosophy-card glass-panel" data-letter="K" data-title="KOMUNIKASI" data-glow="rgba(217, 70, 239, 0.4)">
+                    <div class="ph-letter">K</div>
+                    <div class="ph-info">
+                        <h4>KOMUNIKASI (Communication)</h4>
+                        <p>Jembatan penyampaian pesan dan cerita agar dapat dipahami masyarakat secara efektif dan tepat sasaran.</p>
+                    </div>
+                </div>
+
+                <div class="philosophy-card glass-panel" data-letter="V" data-title="VISUAL" data-glow="rgba(192, 132, 252, 0.4)">
+                    <div class="ph-letter">V</div>
+                    <div class="ph-info">
+                        <h4>VISUAL (Visual)</h4>
+                        <p>Penguasaan elemen gambar, warna, tipografi, dan media digital sebagai bahasa universal modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANGKATAN SECTION -->
+    <section class="section" id="angkatan">
+        <div class="section-header">
+            <span class="section-num">04</span>
+            <h2>Generasi <span>Angkatan</span></h2>
+        </div>
+
+        <div class="generations-wrapper">
+            <div class="gen-card glass-panel tilt-card">
+                <div class="gen-badge">ANGKATAN 1</div>
+                <h3>Pioneer Generation</h3>
+                <p>Generasi perintis yang meletakkan fondasi kreativitas dan semangat eksplorasi awal DKV SMKN 1 Ciamis.</p>
+                <div class="gen-footer">
+                    <span class="gen-count">36 Siswa</span>
+                    <a href="#karya" class="gen-link">Lihat Karya &rarr;</a>
+                </div>
+            </div>
+
+            <div class="gen-card glass-panel tilt-card">
+                <div class="gen-badge">ANGKATAN 2</div>
+                <h3>Evolution Generation</h3>
+                <p>Generasi yang mengembangkan variasi media digital, sinematografi, dan ekspansi branding multimedia.</p>
+                <div class="gen-footer">
+                    <span class="gen-count">72 Siswa</span>
+                    <a href="#karya" class="gen-link">Lihat Karya &rarr;</a>
+                </div>
+            </div>
+
+            <div class="gen-card glass-panel tilt-card highlight-card">
+                <div class="gen-badge active-badge">ANGKATAN 3 (AKTIF)</div>
+                <h3>Cyber Cybernetic</h3>
+                <p>Generasi terkini yang mengadopsi teknologi digital interaktif, animasi 3D, dan desain UI/UX terdepan.</p>
+                <div class="gen-footer">
+                    <span class="gen-count">72 Siswa</span>
+                    <a href="#karya" class="gen-link">Lihat Karya &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KARYA SECTION -->
+    <section class="section" id="karya">
+        <div class="section-header">
+            <span class="section-num">05</span>
+            <h2>Galeri <span>Karya</span></h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="design">Desain Grafis</button>
+            <button class="filter-btn" data-filter="photo">Fotografi</button>
+            <button class="filter-btn" data-filter="video">Videografi</button>
+        </div>
+
+        <!-- Grid Karya -->
+        <div class="portfolio-grid">
+            <div class="portfolio-item tilt-card" data-category="design" data-title="Poster Brutalisme Neon" data-desc="Eksperimen komposisi tipografi dengan aksen neon cyberpunk.">
+                <div class="portfolio-thumb thumb-1">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Desain Grafis</span>
+                        <h4>Poster Brutalisme Neon</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item tilt-card" data-category="photo" data-title="Urban Lighting Portrait" data-desc="Teknik pencahayaan High-Key & Low-Key menggunakan studio kit DKV.">
+                <div class="portfolio-thumb thumb-2">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Fotografi</span>
+                        <h4>Urban Lighting Portrait</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item tilt-card" data-category="video" data-title="Cinematic Short Movie" data-desc="Dokumenter karya siswa Angkatan 2 dengan color grading teal-purple.">
+                <div class="portfolio-thumb thumb-3">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Videografi</span>
+                        <h4>Cinematic Short Movie</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item tilt-card" data-category="design" data-title="Identitas Visual TEFA" data-desc="Rebranding lengkap Teaching Factory DKV SMKN 1 Ciamis.">
+                <div class="portfolio-thumb thumb-4">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Desain Grafis</span>
+                        <h4>Identitas Visual TEFA</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item tilt-card" data-category="photo" data-title="Stage & Event Macro" data-desc="Dokumentasi pameran karya tahunan DKV Expo.">
+                <div class="portfolio-thumb thumb-5">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Fotografi</span>
+                        <h4>Stage & Event Macro</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item tilt-card" data-category="video" data-title="3D Motion Bumper" data-desc="Motion graphics bumper intro untuk saluran YouTube DKV.">
+                <div class="portfolio-thumb thumb-6">
+                    <div class="thumb-overlay">
+                        <span class="cat-tag">Videografi</span>
+                        <h4>3D Motion Bumper</h4>
+                        <p>Klik untuk pratinjau</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK SECTION -->
+    <section class="section contact-section" id="kontak">
+        <div class="contact-card glass-panel tilt-card">
+            <div class="contact-content">
+                <span class="badge">HUBUNGI KAMI</span>
+                <h2>Tertarik Kolaborasi / Berdiskusi Tentang <span>DKV?</span></h2>
+                <p>
+                    Kami terbuka untuk kerja sama industri, pembuatan produk desain melalui TEFA (Teaching Factory), maupun konsultasi penerimaan siswa baru.
+                </p>
+                <div class="contact-actions">
+                    <a href="https://wa.me/6280000000000" target="_blank" class="btn btn-primary btn-glow">
+                        Chat Admin TEFA DKV (WhatsApp)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-box">DKV</div>
+                    <div class="logo-text">
+                        <strong>DKV SMKN 1 CIAMIS</strong>
+                        <span>Desain Komunikasi Visual</span>
+                    </div>
+                </div>
+                <p>Mengembangkan talenta kreatif yang inovatif, kompeten, dan siap bersaing di era digital.</p>
+            </div>
+
+            <div class="footer-socials">
+                <h4>Media Sosial Resmi</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank">Instagram ↗</a>
+                    <a href="https://youtube.com" target="_blank">YouTube ↗</a>
+                    <a href="https://tiktok.com" target="_blank">TikTok ↗</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 DKV SMKN 1 Ciamis. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL PREVIEW portfolio -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-preview-box" id="modalBox"></div>
+                <h3 id="modalTitle">Judul Karya</h3>
+                <p id="modalDesc">Deskripsi karya akan ditampilkan di sini secara lengkap.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
